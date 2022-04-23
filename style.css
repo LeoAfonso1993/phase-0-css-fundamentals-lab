@@ -3,3 +3,44 @@ body {
   height: 100%;
   margin: 0;
 }
+
+header {
+  text-align: center;
+}
+
+nav a {
+  padding-left: 10px;
+  background-color: rgb(204, 201, 201);
+}
+
+section#featured-property img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+section#featured-property figcaption{
+  text-align: center;
+}
+
+section#featured-property > p {
+  text-align: center;
+  width: 800px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+footer{
+  background-color: red;
+  display: flex;
+  justify-content: space-between;
+}
+
+footer div{
+  text-align: center;
+  margin-right: 100px;
+  margin-left: 100px;
+}
+
